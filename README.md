@@ -1,2 +1,2 @@
 # projetosdsm
- projetos e exercicios do curso dsm fatec
+ projetos e exercicios do curso DSM Fatec
