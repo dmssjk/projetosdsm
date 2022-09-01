@@ -1,0 +1,110 @@
+email masanori fmasanori@gmail.com
+----------------------------------
+
+ALUNO DANIEL MACHADO DOS SANTOS 
+
+
+
+*************EXERC 1
+
+numero1 = float (input('digite um numero: '))
+numero2 = float (input('digite outro numero: '))
+resultado = (numero1 + numero2)
+print (f"o resultado da soma dos dois numeros é {resultado:.0f}")
+
+*************EXERC 2
+metragem = float (input("digite uma metragem"))
+resultado = metragem * 1000
+print (resultado, 'milimetros')
+
+
+*************EXERC 3 
+
+dias = float (input('Quantos dias? '))
+horas = float (input('Quantas horas? '))
+minutos = float (input('Quantos minutos? '))
+segundos = float (input('Quantos segundos? '))
+resultadod = dias * 24 * 60 * 60
+resultadoh = horas * 60 * 60
+resultadom = minutos * 60
+
+print (resultadod + resultadoh + resultadom + segundos)
+
+
+
+*************EXERC 4
+
+salario = float(input('Qual seu salário atual ? '))
+aumento = float(input('Qual a % do aumento ? '))
+
+aumen = salario * aumento / 100
+resultado = (aumen + salario)
+
+print (f'seu novo salário é: R$ {resultado:.2f} ')
+                      
+
+*************EXERC 5
+
+mercadoria = float(input('Qual o valor do produto? '))
+desconto = float(input('Qual a % de desconto? '))
+resultadod = mercadoria * desconto / 100
+resultadot = mercadoria - resultadod
+print (resultadot)
+
+
+*************EXERC 6 
+
+velocidade = float(input('qual velocidade média em km/h? '))
+distancia = float(input('qual distancia em km? '))
+
+resultado = distancia / velocidade
+
+print(f'o tempo total esperado de viagem é {resultado:.0f} horas ')
+
+*************EXERC 7 
+
+temperaturac = float(input('digite a temp em celsius: '))
+resultado = ( 9 * temperaturac / 5 + 32)
+print (resultado)
+
+
+
+*************EXERC 8 
+
+temperaturaf =  float(input('Qual a temperatura em fahrenheit? '))
+temperaturac = ( temperaturaf - 32) * 5/9
+print(f'a temperatura é {temperaturac:.2f} celsius')
+
+*************EXERC 9 
+
+km = float(input('quantos km? '))
+dia = float(input('quantos dias? '))
+preçokm = km * 0.15
+preçod = dia * 60
+print (preçokm + preçod)
+
+*************EXERC 10
+
+cigarros = float(input('Quantos cigarros por dia? '))
+anos = float(input('Quantos anos? '))
+
+cigarrost = cigarros * 365 * anos
+tempom = cigarrost * 10
+tempoh = tempom / 60
+tempd = tempoh / 24
+anospr = tempd / 365
+print(f'dias perdidos {tempd:.0f} ou {anospr:.1f} ano(s).')
+
+*************EXERC 11
+
+a = len(str(2**1000000))
+
+print(a)
+    
+
+
+ 
+
+
+
+
